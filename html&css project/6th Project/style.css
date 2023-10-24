@@ -1,0 +1,264 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body
+{
+    line-height: 1.14;
+}
+/* Tob bar section */
+nav
+{
+    background-color: darkblue;
+   
+    padding: 20px;
+}
+.container
+{
+    max-width: 1200px;
+    margin: 0px auto;
+}
+.top_container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #fff;
+}
+.nav_menu .list_item
+{
+    list-style: none;
+    display: flex;
+    
+}
+.nav_menu .list_item li
+{
+    padding: 5px;
+}
+.logo h1
+{
+    font-size: 40px;
+}
+/* about section */
+.about_section
+{
+    background-image: url('images/hero_image.png');
+    height: 637px;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.info_section h1
+{
+    font-size: 60px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.info_section h2
+{
+    font-size: 40px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.info_section p
+{
+    font-size: 20px;
+    color: #fff;
+    padding-bottom: 20px;
+
+}
+/* music section */
+.music_section
+{
+    background-color: darkblue;
+    min-height: 80vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+}
+.musicinfo_section img
+{
+    width: 70%;
+    
+}
+.musicinfo_section h2
+{
+    font-size: 40px;
+    color: #fff;
+    padding-bottom:30px ;
+    
+}
+.musicinfo_section p
+{
+    font-size: 20px;
+    color: #fff;
+    padding-bottom:30px ;
+    
+}
+.musicinfo_section button
+{
+    font-size: 20px;
+    padding: 10px 15px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+/* tvcollection */
+.tvcollection_section
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.tv_container h2
+{
+    font-size: 30px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+.tv_container p
+{
+    font-size: 18px;
+    font-weight: 200;
+    padding-bottom: 40px;
+    line-height: 25px;
+}
+.tv_container button
+{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 12px;
+    margin-bottom: 40px;
+}
+.tv_container img
+{
+    width: 70%;
+}
+.banner_section
+{
+    background-image: url('images/video.png');
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+}
+.banner_container h2
+{
+    font-size: 30px;
+    color: #fff;
+    padding-bottom: 20px;
+}
+.banner_container p
+{
+    font-size: 18px;
+    color: #fff;
+    padding-bottom: 20px;
+    line-height: 25px;
+}
+.gift_section .giftcard_container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media(max-width:768px)
+{
+    .gift_section .giftcard_container
+    {
+        flex-direction: column;
+    }
+    .gift_section .giftcard_container .imagecard_container img
+{
+    width: 100%;
+    padding: 30px;
+}
+.infoheading_container
+{
+    text-align: center;
+    padding: 20px;
+}
+}
+.gift_section .giftcard_container .imagecard_container
+{
+    width: 100%;
+    padding: 30px;
+}
+.infoheading_container h2
+{
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+.infoheading_container p
+{
+    font-size: 18px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+.infoheading_container button
+{
+    font-size: 18px;
+    font-weight: 200;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+footer
+{
+    background-color: darkblue;
+    
+}
+.footer_container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #fff;
+}
+@media(max-width:768px)
+{
+    .footer_container{
+        flex-direction: column;
+    }
+}
+.footer_container h3
+{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+.first_column .list_item
+{
+    list-style: none;
+    padding-top: 10px;
+    line-height: 30px;
+}
+.subfooter_section
+{
+    background-color: orange;
+    text-align: center;
+    padding: 20px;
+}
+.subfooter_container p
+{
+    font-size: 20px;
+    font-weight: 600;
+}
